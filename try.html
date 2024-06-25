@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zooming Image with Text</title>
+    <style>
+        /* Container for the image and text */
+        .image-container {
+            position: relative;
+            width: 300px; /* Adjust the width as needed */
+            overflow: hidden;
+        }
+
+        /* The image */
+        .zoom-image {
+            width: 100%;
+            transition: transform 0.3s ease;
+        }
+
+        /* Text overlay */
+        .image-text {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: rgba(0, 0, 0, 0.7);
+            color: white;
+            padding: 10px;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+            text-align: center;
+        }
+
+        /* Hover effect */
+        .image-container:hover .zoom-image {
+            transform: scale(1.1); /* Adjust the scale factor for zoom level */
+        }
+
+        .image-container:hover .image-text {
+            opacity: 1;
+        }
+    </style>
+</head>
+<body>
+<div class="image-container">
+    <img class="zoom-image" src="your-image.jpg" alt="Zoomable Image">
+    <div class="image-text">
+        Hover to Zoom
+    </div>
+</div>
+</body>
+</html>

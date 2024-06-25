@@ -1,0 +1,428 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+.nav-bar {
+    z-index: 999;
+    position: fixed!important;
+    top: 0;
+    width: 100%;
+    transition: 0.4s;
+}
+
+.landing-images {
+    padding: 0 !important;
+    z-index: 1;
+}
+
+.carousel-item {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+.first-photo {
+    color: white;
+    top: 35%;
+    bottom: 0; /* Place the caption at the bottom of the carousel item */
+    margin: 0; /* Remove margin to ensure text doesn't go below the image */
+    text-align: center;
+    padding: 0;
+}
+
+.location {
+    font-size: 1rem !important;
+    font-family: 'Montserrat', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.check {
+    font-size: 4rem;
+    font-family: 'Montserrat', sans-serif;
+    padding: 0;
+    margin: 2px 0px 8px 0px;
+}
+
+.bar {
+    background: transparent;
+    padding: 0px!important;
+    margin: 0px!important;
+}
+
+.hamburger {
+    width: 20px;
+    height: auto;
+    padding: 0px;
+    margin: 0px;
+}
+
+.search {
+    width: 20px;
+    height: auto;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-logo {
+    display: flex;
+}
+
+.chiba {
+    padding: 3px 0px 0px 0px;
+    margin: 0px 0px 0px 3px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+.logo {
+    width: 30px;
+    height: auto;
+    padding: 0px;
+    margin: 0px;
+}
+
+@media (max-width: 768px) {
+    /* Adjust font size for smaller screens */
+    .carousel-caption.first-photo p {
+        font-size: 3rem; /* Adjust as needed */
+        max-width: 80%; /* Limit maximum width of the text */
+    }
+}
+
+.explore {
+    border-radius: 0 !important;
+    width: 100px;
+    height: 45px;
+    font-size: 12px !important;
+    background-color: #1f2021 !important;
+    border: none !important;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.below-landing-page {
+    margin: 100px 0px 0px 0px;
+}
+
+.below-landing-page-text{
+    text-align: center;
+}
+.slogan {
+    font-size: 36px;
+}
+
+.desc{
+    font-size: 20px;
+    padding: 10px 400px 0px 400px;
+}
+
+.image-and-text{
+    display: flex;
+    justify-content: center;
+    padding: 100px 250px 0px 250px ;
+}
+
+.food{
+    width: auto!important;
+    height: 460px!important;
+    margin: 0px 0px 0px 0px;
+}
+
+.food-drink{
+    margin: 0px 0px 0px 40px;
+    font-size: 24px;
+}
+
+.food-desc{
+    font-size: 18px;
+    margin: 15px 0px 0px 40px;
+}
+
+.our-menu{
+    border-radius: 0 !important;
+    width: 100px;
+    height: 45px;
+    font-size: 12px !important;
+    background-color: #1f2021 !important;
+    border: none !important;
+    font-family: 'Montserrat', sans-serif;
+    margin: 20px 0px 0px 40px;
+}
+
+
+.favorites-header{
+    font-size: 32px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.underline{
+    text-align: center;
+    margin: 0 auto; /* Center vertically */
+    width: 4%; /* Adjust the width as needed */
+    border-color: black;
+}
+
+.product-header{
+    text-align: center;
+    font-size: 32px;
+}
+
+.favorites-header{
+    margin-top: 100px;
+    font-size: 32px;
+    text-align: center;
+}
+
+.underline{
+    text-align: center;
+    margin: 0 auto; /* Center vertically */
+    width: 4%; /* Adjust the width as needed */
+    border-color: black;
+}
+
+.box{
+    width: 300px; /* Width of the box */
+    text-align: center;
+}
+
+.fav-products{
+    display: flex;
+    margin: 60px 250px 0px 250px;
+    justify-content: center;
+    column-gap: 30px;
+    row-gap: 30px;
+    flex-wrap: wrap;
+}
+
+
+.product-box {
+    width: 300px; /* Width of the box */
+    height: 250px;
+    border: 1px solid #ddd; /* Border style and color */
+    padding: 0; /* Padding inside the box */
+    box-sizing: border-box; /* Ensure padding doesn't add to width */
+    overflow: hidden;
+    position: relative;
+    margin: 0;
+}
+
+.product-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* This will make the image fill the box while maintaining aspect ratio */
+    transition: 0.8s ease;
+}
+
+.product-title {
+    font-size: 20px;
+    margin: 10px 0px 0px 0px;
+    padding: 0;
+}
+
+
+.product-price {
+    font-size: 16px;
+    margin: 0px 0px 20px 0px;
+}
+
+.merch{
+    margin: 100px 0 0 0;
+    z-index: 0;
+}
+
+.our-team{
+    margin: 100px 0px 0px 0px;
+}
+
+.owner{
+    width: 500px;
+    height: auto;
+}
+
+.name{
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.title{
+    font-size: 16px;
+    margin: 0px 0px 20px 0px;
+}
+
+.newsletter{
+    margin: 100px 0 0 ;
+    background-color: #f6f6f6;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.newsletter-text{
+    width: 600px;
+    height: 300px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.underline-newsletter{
+    text-align: center;
+    margin: 0 auto; /* Center vertically */
+    width: 10%; /* Adjust the width as needed */
+    border-color: black;
+}
+
+.newsletter-head{
+    font-size: 32px;
+}
+
+.newsletter-desc{
+    font-size: 18px;
+    padding: 10px 0px 0px 0px;
+}
+
+.email{
+    margin: 0px;
+}
+
+.email-box{
+    height: 50px!important;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#main {
+    transition: margin-left .5s;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.openBtn {
+    background: #f1f1f1;
+    border: none;
+    padding: 10px 15px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.openBtn:hover {
+    background: #bbb;
+}
+
+.overlay {
+    height: 100%;
+    width: 100%;
+    display: none;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+}
+
+.overlay-content {
+    position: relative;
+    top: 46%;
+    width: 80%;
+    text-align: center;
+    margin-top: 30px;
+    margin: auto;
+    z-index: 999;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+    cursor: pointer;
+    color: white;
+}
+
+.overlay .closebtn:hover {
+    color: #ccc;
+}
+
+.overlay input[type=text] {
+    padding: 15px;
+    font-size: 17px;
+    border: none;
+    float: left;
+    width: 80%;
+    background: white;
+    z-index: 999;
+}
+
+.overlay input[type=text]:hover {
+    background: #f1f1f1;
+}
+
+.overlay button {
+    float: left;
+    width: 20%;
+    padding: 15px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+}
+
+.overlay button:hover {
+    background: #bbb;
+}
+
+.pachadi{
+    z-index: 1!important;
+}
+

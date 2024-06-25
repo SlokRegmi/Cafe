@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+            crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
+
+</head>
+<body>
+<div id="main">
+    <div class="landing-page">
+        <div class="container-fluid p-0">
+            <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                            class="active"
+                            aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner landing-images">
+                    <div class="carousel-item active">
+                        <img src="assests/blog-img-012.jpg" class="d-block vh-100 vw-100" alt="..." style="filter: brightness(80%)">
+                        <div class="carousel-caption d-none d-md-block first-photo">
+                            <p class="location">Coffee, Tea, Bakery and Sweets</p>
+                            <p class="check">Check out our products!</p>
+                            <a href="product.html"><button type="button" class="btn btn-primary explore">EXPLORE</button></a>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assests/pexels-afta-putta-gunawan-683039.avif" class="d-block vh-100 vw-100" style="filter: brightness(80%)" >
+                        <div class="carousel-caption d-none d-md-block first-photo">
+                            <p class="location">Est. 1990</p>
+                            <p class="check">Know more about Us?</p>
+                            <a href="about.html"><button type="button" class="btn btn-primary explore">EXPLORE</button></a>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assests/wallpaperflare.com_wallpaper.jpg" class="d-block vh-100 vw-100" alt="..." style="filter: brightness(80%)">
+                        <div class="carousel-caption d-none d-md-block first-photo">
+                            <p class="location">PIMBAHAL, LALITPUR</p>
+                            <p class="check">Check out our shop!</p>
+                            <button type="button" class="btn btn-primary explore">EXPLORE</button>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+
+        <nav class="navbar navbar-transparent navbar-expand-lg nav-bar" id="nav-bar"
+             style="padding: 30px 250px 0px 250px;">
+            <div class="container-fluid bar" style="padding: 0px 0px 0px 0px">
+                <div class="nav-left-icons">
+                    <div id="mySidenav" class="sidenav">
+                        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                        <a href="index.html">Home</a>
+                        <a href="about.html">About Us</a>
+                        <a href="product.html">Product</a>
+                        <a href="merch.html">Merch</a>
+                        <a href="#">Contact</a>
+                    </div>
+                    <img src="assests/solar_hamburger-menu-outline.svg" class="hamburger" onclick="openNav()"
+                         style="cursor:pointer;" id="hamburger">
+                </div>
+                <div class="nav-logo">
+                    <img src="assests/logo.svg" class="logo" id="logo">
+                    <p class="fs-5 chiba" id="chiba">CHIBA CAFE</p>
+                </div>
+                <div class="nav-right-icons">
+                    <img src="assests/search.svg" class="search" id="search" onclick="openSearch()"
+                         style="cursor:pointer;">
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <div class="below-landing-page">
+        <div class="below-landing-page-text">
+            <p class="slogan">"Jata Chiya, Tetai Ma"</p>
+            <p class="desc">More than just coffee, we're a lively community hub where connections flourish. Come make
+                memorable moments with us.</p>
+        </div>
+        <div class="image-and-text">
+            <img src="assests/IMG_1091_540x.webp" class="img-fluid food" alt="Responsive image">
+            <div class="container-fluid">
+                <p class="food-drink">EXPLORE OUR FOOD & DRINK MENU</p>
+                <p class="food-desc">Our menu is a culinary journey through taste and texture. From mouthwatering
+                    breakfast
+                    options to savory lunches, and from aromatic coffees to refreshing teas, our offerings are designed
+                    to
+                    satisfy your cravings and ignite your taste buds.</p>
+                <a href="product.html"><button type="button" class="btn btn-primary our-menu">OUR MENU</button></a>
+            </div>
+        </div>
+    </div>
+
+    <p class="favorites-header">Favorites</p>
+    <hr class="underline">
+    <div class="fav-products">
+        <div class="box">
+            <div class="product-box">
+                <img class="product-image" src="assests/food-bread-coffee-tea-cup-breakfast-784451-wallhere.com.jpg" alt="Product Image">
+            </div>
+            <p class="product-title">Product 1</p>
+            <p class="product-price">Rs 100</p>
+        </div>
+        <div class="box">
+            <div class="product-box">
+                <img class="product-image" src="assests/korean-style-cakes-bespoke-minimalist-lettering-lunchbox-instagram-1600x900.webp" alt="Product Image">
+            </div>
+            <p class="product-title">Product 1</p>
+            <p class="product-price">Rs 100</p>
+        </div>
+        <div class="box">
+            <div class="product-box">
+                <img class="product-image" src="assests/cup-tea-is-bread-dark-retro-background.jpg" alt="Product Image">
+            </div>
+            <p class="product-title">Product 1</p>
+            <p class="product-price">Rs 100</p>
+        </div>
+        <div class="box">
+            <div class="product-box">
+                <img class="product-image" src="assests/nishaan-ahmed-4M5jPBQTZK8-unsplash.jpg" alt="Product Image">
+            </div>
+            <p class="product-title">Product 1</p>
+            <p class="product-price">Rs 100</p>
+        </div>
+        <div class="box">
+            <div class="product-box">
+                <img class="product-image" src="assests/mae-mu-m9pzwmxm2rk-unsplash.jpg" alt="Product Image">
+            </div>
+            <p class="product-title">Product 1</p>
+            <p class="product-price">Rs 100</p>
+        </div>
+        <div class="box">
+            <div class="product-box">
+                <img class="product-image" src="assests/pexels-ivan-j-long-1387070.jpg" alt="Product Image">
+            </div>
+            <p class="product-title">Product 1</p>
+            <p class="product-price">Rs 100</p>
+        </div>
+    </div>
+
+    <div id="carouselExampleRide" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-inner merch">
+            <div class="carousel-item active">
+                <img src="assests/mockup_of_black_hoodie_pack_front_and_back.jpg" class="d-block w-100 " alt="..."
+                     style="filter: brightness(80%)">
+                <div class="carousel-caption first-photo">
+                    <p class="location">2023 SOUVENIR MERCH LINE</p>
+                    <p class="check">New Merch</p>
+                    <a href="merch.html"><button type="button" class="btn btn-primary explore">SHOP NOW</button></a>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="assests/OUS2D01.jpg" class="d-block w-100" alt="..." style="filter: brightness(80%)">
+                <div class="carousel-caption first-photo">
+                    <p class="location">2023 SOUVENIR MERCH LINE</p>
+                    <p class="check">New Merch</p>
+                    <a href="merch.html"><button type="button" class="btn btn-primary explore">SHOP NOW</button></a>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="assests/OJB0DQ1.jpg" class="d-block w-100" alt="..." style="filter: brightness(80%)">
+                <div class="carousel-caption first-photo">
+                    <p class="location">2023 SOUVENIR MERCH LINE</p>
+                    <p class="check">New Merch</p>
+                    <a href="merch.html"><button type="button" class="btn btn-primary explore">SHOP NOW</button></a>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <div class="our-team">
+        <p class="favorites-header">Our Team</p>
+        <hr class="underline">
+        <div class="fav-products">
+            <div class="box">
+                <p class="name">Bibek Maharjan</p>
+                <p class="title">Owner</p>
+                <div class="product-box">
+                    <img class="product-image" src="assests/IMG_1266.JPG" alt="Product Image">
+                </div>
+            </div>
+            <div class="box">
+                <p class="name">Rayzia Maharjan</p>
+                <p class="title">Co-owner</p>
+                <div class="product-box">
+                    <img class="product-image" src="assests/IMG_1293.JPG" alt="Product Image">
+                </div>
+            </div>
+            <div class="box">
+                <p class="name">Laxmi Maharjan</p>
+                <p class="title">Helper</p>
+                <div class="product-box">
+                    <img class="product-image" src="assests/IMG_1308.JPG" alt="Product Image">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="newsletter">
+        <div class="newsletter-text">
+            <div class="newsletter-all-text">
+                <p class="newsletter-head">Keep in touch!</p>
+                <p class="newsletter-desc">Subscribe to our newsletter, crafted by some of our very own baristas.
+                    Stay in the loop with our latest souvenir happenings, coffee drops, and dad jokes.</p>
+            </div>
+            <hr class="underline-newsletter">
+            <div class="input-group mb-3 email">
+                <input type="text" class="form-control email-box" placeholder="Email"
+                       aria-label="Recipient's username" aria-describedby="button-addon2">
+                <button class="btn btn-outline-secondary pachadi" type="button" id="button-addon2">Submit</button>
+            </div>
+        </div>
+    </div>
+
+    <footer class="text-center text-white">
+        <!-- Grid container -->
+        <div class="container pt-4">
+            <!-- Section: Social media -->
+            <section class="mb-4">
+                <!-- Facebook -->
+                <a
+                        class="btn btn-link btn-floating btn-lg text-dark m-1"
+                        href="#!"
+                        role="button"
+                        data-mdb-ripple-color="dark"
+                ><i class="fab fa-facebook-f"></i
+                ></a>
+
+                <!-- Twitter -->
+                <a
+                        class="btn btn-link btn-floating btn-lg text-dark m-1"
+                        href="#!"
+                        role="button"
+                        data-mdb-ripple-color="dark"
+                ><i class="fab fa-twitter"></i
+                ></a>
+
+                <!-- Google -->
+                <a
+                        class="btn btn-link btn-floating btn-lg text-dark m-1"
+                        href="#!"
+                        role="button"
+                        data-mdb-ripple-color="dark"
+                ><i class="fab fa-google"></i
+                ></a>
+
+                <!-- Instagram -->
+                <a
+                        class="btn btn-link btn-floating btn-lg text-dark m-1"
+                        href="#!"
+                        role="button"
+                        data-mdb-ripple-color="dark"
+                ><i class="fab fa-instagram"></i
+                ></a>
+
+                <!-- Linkedin -->
+                <a
+                        class="btn btn-link btn-floating btn-lg text-dark m-1"
+                        href="#!"
+                        role="button"
+                        data-mdb-ripple-color="dark"
+                ><i class="fab fa-linkedin"></i
+                ></a>
+                <!-- Github -->
+                <a
+                        class="btn btn-link btn-floating btn-lg text-dark m-1"
+                        href="#!"
+                        role="button"
+                        data-mdb-ripple-color="dark"
+                ><i class="fab fa-github"></i
+                ></a>
+            </section>
+            <!-- Section: Social media -->
+        </div>
+        <!-- Grid container -->
+
+        <!-- Copyright -->
+        <div class="text-center text-dark p-3" style="background-color: #f6f6f6;">
+            © 2020 Copyright:
+            <a class="text-dark" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&t=62s">InapMaharjan</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+    <div id="myOverlay" class="overlay">
+        <span class="closebtn" onclick="closeSearch()" title="Close Overlay">×</span>
+        <div class="overlay-content">
+            <input type="text" placeholder="Search.." name="search">
+            <button type="submit"><i class="fa fa-search"></i></button>
+        </div>
+    </div>
+</div>
+</body>
+</html>
